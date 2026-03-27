@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Wordle</h1>
+        </header>
+
+        <div id="message" class="message"></div>
+
+        <div id="board" class="board">
+            <!-- 6 rows of 5 tiles each -->
+            {% for row in range(6) %}
+            <div class="row" data-row="{{ row }}">
+                {% for col in range(5) %}
+                <div class="tile" data-col="{{ col }}"></div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+
+        <div id="keyboard" class="keyboard">
+            <div class="keyboard-row">
+                {% for key in ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'] %}
+                <button class="key" data-key="{{ key }}">{{ key }}</button>
+                {% endfor %}
+            </div>
+            <div class="keyboard-row">
+                {% for key in ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'] %}
+                <button class="key" data-key="{{ key }}">{{ key }}</button>
+                {% endfor %}
+            </div>
+            <div class="keyboard-row">
+                <button class="key key-wide" data-key="ENTER">ENTER</button>
+                {% for key in ['Z', 'X', 'C', 'V', 'B', 'N', 'M'] %}
+                <button class="key" data-key="{{ key }}">{{ key }}</button>
+                {% endfor %}
+                <button class="key key-wide" data-key="BACKSPACE">DEL</button>
+            </div>
+        </div>
+
+        <button id="new-game" class="new-game-btn">New Game</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
