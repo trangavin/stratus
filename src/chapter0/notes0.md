@@ -86,13 +86,13 @@ You'll notice quotes inside the print function in exercises. Make sure to do thi
 To run any Python file in your terminal, use this command pattern:
 
 ```
-python path/to/your/file.py
+uv run python path/to/your/file.py
 ```
 
 **Examples:**
 
-- `python src/chapter0/exercise0a.py`
-- `python src/chapter1/exercise1a.py`
-- `python answers/chapter0/answers0a.py`
+- `uv run python src/chapter0/exercise0a.py`
+- `uv run python src/chapter1/exercise1a.py`
+- `uv run python answers/chapter0/answers0a.py`
 
 **Note:** If unsure of your current location, type `pwd` to see where you are.
