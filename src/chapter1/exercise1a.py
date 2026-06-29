@@ -8,7 +8,7 @@ Note that in code, this equal sign means "gets" rather than "equals".
 """
 
 # This line of code below makes a variable called 'weather_condition' which gets the value, "sunny"
-weather_condition = "sunny"
+weather_condition = "cloudy"
 print(weather_condition)
 
 """
@@ -18,9 +18,10 @@ Follow the instructions below to create your own weather variables.
 """
 
 # Create a variable called 'city' and store your city name in it.
-
+city="Houston"
 # Print your city variable.
-
+print(city)
 # Create a variable called 'state' and store the state name.
-
+state="Texas"
 # Print your state variable.
+print(state)
