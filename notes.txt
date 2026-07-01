@@ -1,0 +1,22 @@
+control + l = get rid of everythin on terminal
+functions = verbs for the computer
+    example = print()
+variables = things that you can assign
+    example = gavin = kid, so then i could print(gavin) and it will print kid
+data types
+    integer = whole numbers
+        example = -1, 0, 1, 2, 3
+    string = text
+        example = Hello World
+    float = decimal numbers
+        example = 1.123532567654
+    boolean = true or False
+arguement = input for function
+    example = print(arguement)
+parameter = input when defining a function
+    example = def show_temperature(parameter)
+git add .
+git commit
+git push
+prodject
+grade deadline thing. Calculate how important a certain thing is. include due dates and how important this thing is.

@@ -32,31 +32,29 @@ Now let's practice modifying lists!
 """
 
 # Create an empty list called 'weekly_forecast'
-
+weekly_forcast = []
 # Add the following temperatures to your list one by one using append(): 70, 73, 75, 77
-
+weekly_forcast.append(70)
+weekly_forcast.append(73)
+weekly_forcast.append(75)
+weekly_forcast.append(77)
 # Print your weekly_forecast list
-
+print(weekly_forcast)
 # Add two more temperatures: 76 and 74
-
+weekly_forcast.append(76)
+weekly_forcast.append(74)
 # Print the updated list
-
+print(weekly_forcast)
 # Print the length of your weekly_forecast list using len()
+print(len(weekly_forcast))
 
-# Remove the first temperature you added (70) using remove()
-
-# Print the list after removal
-
-# Create a list called 'cities_to_visit' with 3 city names
-
-# Check if "Austin" is in your cities_to_visit list and print an appropriate message
-
-# Add "Dallas" to your cities_to_visit list
-
-# Print the final cities_to_visit list
 
 # Create a list called 'rain_chances' with these values: [20, 40, 60, 30, 10]
-
+rain_chances = [20, 40, 60, 30, 10]
 # Print the number of days in the rain_chances list
-
+print(len(rain_chances))
 # Check if 60 is in the rain_chances list, if so print "High chance of rain this week!"
+if 55 in rain_chances:
+    print("High chance of rain this week!")
+else:
+    print("OK")

@@ -24,3 +24,12 @@ print(wind_mph - rainfall_inches)
 print(wind_mph * rainfall_inches)
 print(wind_mph / rainfall_inches)
 print(wind_mph // rainfall_inches)
+
+print()
+
+cost=9
+allowence=20
+print(cost - allowence)
+print(cost + allowence)
+print(cost * allowence)
+print(cost / allowence)

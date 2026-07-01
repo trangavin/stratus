@@ -36,11 +36,12 @@ forecast = []
 Each item in a list has a position called an **index**. Python starts counting from 0, not 1!
 
 ```python
-cities = ["Houston", "Austin", "Dallas", "San Antonio"]
+cities = ["Houston", "Austin", "Dallas", "San Antonio", "Chicago"]
 
 print(cities[0])  # Output: Houston (first item)
 print(cities[1])  # Output: Austin (second item)
 print(cities[3])  # Output: San Antonio (fourth item)
+print(cities[4])
 ```
 
 You can also access items from the end using negative indices:

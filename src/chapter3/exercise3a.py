@@ -37,3 +37,7 @@ def show_season():
     print("summer super hot")
 # Call your show_season function
 show_season()
+
+def definition_cold():
+    print("not hot")
+definition_cold()

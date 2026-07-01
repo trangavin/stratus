@@ -25,3 +25,5 @@ print(city)
 state="Texas"
 # Print your state variable.
 print(state)
+country="United States of America"
+print(country)

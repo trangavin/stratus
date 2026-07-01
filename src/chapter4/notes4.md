@@ -35,7 +35,7 @@ It's funny to see two equal signs. In Python this is how we ask the question "Is
 The `if` statement lets your program make decisions:
 
 ```python
-temperature = 85
+temperature = 75
 
 if temperature > 80:
     print("It's hot outside!")
@@ -48,7 +48,7 @@ Just like functions, the code inside the `if` statement must be indented. Python
 What if you want to check multiple conditions? Use `elif` (which means "else if"):
 
 ```python
-temperature = 65
+temperature = 55
 
 if temperature > 80:
     print("It's hot!")
